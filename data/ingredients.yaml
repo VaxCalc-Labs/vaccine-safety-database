@@ -1,0 +1,250 @@
+ingredients:
+  aluminum:
+    name: "Aluminum"
+    slug: "aluminum"
+    highlight: "negative-attention"
+    disease_url: "https://ctdbase.org/detail.go?acc=D000535&type=chem&view=disease"
+    diseases:
+      - "Autism"
+      - "Alzheimer's Disease"
+      - "Neurodegenerative Diseases"
+      - "Parkinson's Disease"
+  ammonium_sulfate:
+    name: "Ammonium Sulfate"
+    slug: "ammonium-sulfate"
+  benzyl_alcohol:
+    name: "Benzyl alcohol"
+    slug: "benzyl-alcohol"
+  bovine_albumin:
+    name: "Albumin, bovine"
+    slug: "bovine-albumin"
+  bovine_pituitary_extract:
+    name: "Bovine pituitary extract"
+    slug: "bovine-pituitary-extract"
+  calf_serum_albumin:
+    name: "Albumin, calf serum"
+    slug: "calf-serum-albumin"
+  casamino_acid:
+    name: "Casamino acid (derived from milk proteins)"
+    slug: "casamino-acid"
+  casein:
+    name: "Casein (milk proteins)"
+    slug: "casein"
+  citric_acid_monohydrate:
+    name: "Citric acid monohydrate"
+    slug: "citric-acid-monohydrate"
+    purpose: "buffer"
+  ctab:
+    name: "Cetyltrimethylammonium bromide (CTAB)"
+    slug: "ctab"
+    purpose: "protein purifier"
+  deoxycholate:
+    name: "Deoxycholate"
+    slug: "deoxycholate"
+  dibasic_sodium_phosphate:
+    name: "Dibasic sodium phosphate"
+    slug: "dibasic-sodium-phosphate"
+  diphtheria_protein:
+    name: "Diphtheria protein"
+    slug: "diphtheria-protein"
+  diphtheria_toxoid:
+    name: "Diphtheria toxoid"
+    slug: "diphtheria-toxoid"
+  dmem:
+    name: "Dulbecco's Modified Eagle Medium (DMEM)"
+    slug: "dmem"
+  e_coli:
+    name: "E. coli"
+    slug: "e-coli"
+  edta:
+    name: "Ethylenediaminetetraacetic acid (EDTA)"
+    slug: "edta"
+  egg_protein:
+    name: "Egg protein"
+    slug: "egg-protein"
+    purpose: "residual medium"
+  fetal_bovine_serum:
+    name: "Fetal bovine serum"
+    slug: "fetal-bovine-serum"
+  formaldehyde:
+    name: "Formaldehyde"
+    slug: "formaldehyde"
+    purpose: "inactivating agent"
+    disease_url: "https://ctdbase.org/detail.go?type=chem&acc=D005557&view=disease"
+    diseases:
+      - "Autism"
+      - "Cancer (various types)"
+  franz_complete_medium:
+    name: "Franz complete medium"
+    slug: "franz-complete-medium"
+  glutaraldehyde:
+    name: "Glutaraldehyde"
+    slug: "glutaraldehyde"
+  glyphosate:
+    name: "Glyphosate"
+    slug: "glyphosate"
+  human_albumin:
+    name: "Albumin, human - from human blood"
+    slug: "human-albumin"
+  human_protein_dna_mrc_5:
+    name: "Human protein DNA MRC-5"
+    slug: "human-protein-dna-mrc-5"
+  human_protein_dna_wi_38:
+    name: "Human protein DNA WI-38"
+    slug: "human-protein-dna-wi-38"
+  human_protein_dna_wistar_ra_27_3:
+    name: "Human protein DNA Wistar RA 27/3"
+    slug: "human-protein-dna-wistar-ra-27-3"
+  hydrocortisone:
+    name: "Hydrocortisone"
+    slug: "hydrocortisone"
+    purpose: "anti-inflammatory"
+  lactalbumin_hydrolysate:
+    name: "Lactalbumin hydrolysate (milk protein)"
+    slug: "lactalbumin-hydrolysate"
+  lactose:
+    name: "Lactose (milk sugar)"
+    slug: "lactose"
+  latex:
+    name: "Latex"
+    slug: "latex"
+  kanamycin:
+    name: "Kanamycin"
+    slug: "kanamycin"
+    purpose: "antimicrobial"
+  mf59:
+    name: "MF59"
+    slug: "mf59"
+    purpose: "adjuvant"
+    highlight: "negative-attention"
+  modified_muellers_medium:
+    name: "Modified Mueller's medium"
+    slug: "modified-muellers-medium"
+  modified_mueller_miller_medium:
+    name: "Modified Mueller-Miller medium"
+    slug: "modified-mueller-miller-medium"
+  msg:
+    name: "Monosodium glutamate (MSG)"
+    slug: "msg"
+  neomycin:
+    name: "Neomycin"
+    slug: "neomycin"
+    purpose: "antimicrobial"
+  pertussis_toxin:
+    name: "Pertussis toxin"
+    slug: "pertussis-toxin"
+    highlight: "negative-attention"
+  phenol:
+    name: "Phenol"
+    slug: "phenol"
+  phenoxyethanol:
+    name: "Phenoxyethanol"
+    slug: "phenoxyethanol"
+  phytonadione:
+    name: "Phytonadione"
+    slug: "phytonadione"
+  polymyxin:
+    name: "Polymyxin"
+    slug: "polymyxin"
+  polysorbate_20:
+    name: "Polysorbate 20"
+    slug: "polysorbate-20"
+  polysorbate_80:
+    name: "Polysorbate 80"
+    slug: "polysorbate-80"
+    purpose: ["surfactant", "emulsifier"]
+  porcine_circovirus_type_1:
+    name: "Porcine circovirus type 1"
+    slug: "porcine-circovirus-type-1"
+  porcine_circovirus_type_2:
+    name: "Porcine circovirus type 2"
+    slug: "porcine-circovirus-type-2"
+  porcine_gelatin:
+    name: "Porcine gelatin"
+    slug: "porcine-gelatin"
+  potassium_chloride:
+    name: "Potassium chloride"
+    slug: "potassium-chloride"
+  potassium_phosphate:
+    name: "Potassium phosphate"
+    slug: "potassium-phosphate"
+  proplyene_glycol:
+    name: "Propylene glycol"
+    slug: "propylene-glycol"
+  pseudomonas_fluorescens:
+    name: "Pseudomonas fluorescens"
+    slug: "pseudomonas-fluorescens"
+  recombinant_diphtheria_crm197_protein:
+    name: "Recombinant diphtheria CRM197 protein"
+    slug: "recombinant-diphtheria-crm197-protein"
+    gmo: true
+  recombinant_human_albumin:
+    name: "Albumin, recombinant human"
+    slug: "recombinant-human-albumin"
+    gmo: true
+  recombinant_yeast:
+    name: "Recombinant yeast"
+    slug: "recombinant-yeast"
+    gmo: true
+  sodium_citrate_dihydrate:
+    name: "Sodium citrate dihydrate"
+    slug: "sodium-citrate-dihydrate"
+    purpose: "buffer"
+  sorbitan_trioleate:
+    name: "Sorbitan trioleate"
+    slug: "sorbitan-trioleate"
+    purpose: ["surfactant", "emulsifier"]
+  squalene:
+    name: "Squalene"
+    slug: "squalene"
+    purpose: "adjuvant"
+    highlight: "negative-attention"
+  strain_a_h1n1:
+    name: "Strain A/H1N1"
+    slug: "strain-a-h1n1"
+  strain_a_h3n2:
+    name: "Strain A/H3N2"
+    slug: "strain-a-h3n2"
+  strain_b:
+    name: "Strain B"
+    slug: "strain-b"
+  streptomycin:
+    name: "Streptomycin"
+    slug: "streptomycin"
+  sodium_phosphate:
+    name: "Sodium phosphate"
+    slug: "sodium-phosphate"
+  soy_peptone:
+    name: "Soy peptone"
+    slug: "soy-peptone"
+  tetanus_toxoid:
+    name: "Tetanus toxoid"
+    slug: "tetanus-toxoid"
+  thimerosal:
+    name: "Thimerosal"
+    slug: "thimerosal"
+    purpose: "preservative"
+    highlight: "negative-attention"
+    disease_url: "https://ctdbase.org/detail.go?type=chem&acc=D013849&view=disease"
+    diseases:
+      - "Autism"
+      - "Neurotoxicity"
+  thimerosal_free_version:
+    name: "Thimerosal-free formulation"
+    slug: "thimerosal-free-version"
+    highlight: "positive-attention"
+  triton_x100:
+    name: "Triton X-100"
+    slug: "triton-x100"
+  urea:
+    name: "Urea"
+    slug: "urea"
+    disease_url: "https://ctdbase.org/detail.go?acc=MESH%3AD058186&view=chem&sort=chemNmSort&page=6&type=disease&dir=desc"
+    diseases:
+      - "Acute Kidney Injury"
+  vero_cells:
+    name: "VERO cells (African Green Monkey kidney) DNA"
+    slug: "vero-cells"
+  yeast:
+    name: "Yeast"
+    slug: "yeast"

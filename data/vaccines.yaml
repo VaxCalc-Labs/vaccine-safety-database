@@ -1,0 +1,553 @@
+vaccines:
+  - name: ActHIB
+    id: 1
+    type: Hib
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/acthib
+    age_range: "2 months - 5 years"
+    initial_US_approval_date: "1993"
+    ingredients:
+      - casein: "1 exposure"
+      - formaldehyde: "0.5 mcg"
+  - name: Adacel
+    id: 2
+    type: Tdap
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/adacel
+    age_range: "10 - 64 years"
+    initial_US_approval_date: "2005"
+    ingredients:
+      - aluminum: "330 mcg"
+      - ammonium_sulfate: "1 exposure"
+      - formaldehyde: "5 mcg"
+      - glutaraldehyde: "50 ng"
+      - latex: "1 exposure"
+      - pertussis_toxin: "2.5 mcg"
+      - phenoxyethanol: "3,300 mcg"
+      - polysorbate_80: "100 mcg"
+  - name: AquaMEPHYTON
+    id: 3
+    type: Vitamin-K
+    url: https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/012223s042lbl.pdf
+    age_range: "Birth and older"
+    initial_US_approval_date: "1961"
+    ingredients:
+      - benzyl_alcohol: "9,000 mcg"
+      - phytonadione: "2 mg"
+  - name: Bexsero
+    id: 4
+    type: MenB
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/bexsero
+    age_range: "10 - 25 years"
+    initial_US_approval_date: "2015"
+    ingredients:
+      - aluminum: "519 mcg"
+      - deoxycholate: "1 exposure"
+      - e_coli: "1 exposure"
+      - kanamycin: "10 ng"
+      - latex: "1 exposure"
+  - name: Boostrix
+    id: 5
+    type: Tdap
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/boostrix
+    age_range: "10 years and older"
+    initial_US_approval_date: "2005"
+    ingredients:
+      - aluminum: "390 mcg"
+      - bovine_pituitary_extract: "1 exposure"
+      - casein: "1 exposure"
+      - formaldehyde: "100 mcg"
+      - glutaraldehyde: "1 exposure"
+      - latex: "1 exposure"
+      - pertussis_toxin: "8 mcg"
+      - polysorbate_80: "100 mcg"
+  - name: Daptacel
+    id: 6
+    type: DTaP
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/daptacel
+    age_range: "6 weeks - 6 years"
+    initial_US_approval_date: "2002"
+    ingredients:
+      - aluminum: "330 mcg"
+      - ammonium_sulfate: "1 exposure"
+      - casamino_acid: "1 exposure"
+      - formaldehyde: "5 mcg"
+      - glutaraldehyde: "50 ng"
+      - pertussis_toxin: "10 mcg"
+      - phenoxyethanol: "3,300 mcg"
+  - name: Engerix-B
+    id: 7
+    type: HepB
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/engerix-b
+    age_range: "Birth - 19 years"
+    initial_US_approval_date: "1989"
+    ingredients:
+      - aluminum: "250 mcg"
+      - glyphosate: "0.3 ppb"
+      - latex: "1 exposure"
+      - recombinant_yeast: "1 exposure"
+  - name: Hiberix
+    id: 8
+    type: Hib
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/hiberix
+    age_range: "6 weeks - 4 years"
+    initial_US_approval_date: "2009"
+    ingredients:
+      - formaldehyde: "5 mcg"
+      - lactose: "1 exposure"
+  - name: Fluad
+    id: 36
+    type: Flu
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/fluad
+    age_range: "65 years and older"
+    initial_US_approval_date: "2015"
+    ingredients:
+      - ctab: "12 mcg"
+      - citric_acid_monohydrate: "40 mcg"
+      - egg_protein: "0.4 mcg"
+      - formaldehyde: "10 mcg"
+      - hydrocortisone: "0.005 ng"
+      - kanamycin: "0.03 mcg"
+      - mf59: "1 exposure"
+      - neomycin: "0.02 mcg"
+      - polysorbate_80: "1,175 mcg"
+      - sodium_citrate_dihydrate: "660 mcg"
+      - sorbitan_trioleate: "1,175 mcg"
+      - squalene: "9,750 mcg"
+      - strain_a_h1n1: "15 mcg"
+      - strain_a_h3n2: "15 mcg"
+      - strain_b: "15 mcg"
+      - thimerosal_free_version: "✅"
+  - name: FluZone
+    id: 37
+    type: Flu
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/fluzone
+    age_range: "3 years and older"
+    initial_US_approval_date: "2003"
+    ingredients:
+      - egg_protein: "1 exposure"
+      - formaldehyde: "100 mcg"
+      - triton_x100: "150 mcg"
+      - thimerosal: "50 mcg"
+      - thimerosal_free_version: "✅"
+      - strain_a_h1n1: "15 mcg"
+      - strain_a_h3n2: "15 mcg"
+      - strain_b: "15 mcg"
+  - name: FluZone High-Dose
+    id: 38
+    type: Flu
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/fluzone-high-dose
+    age_range: "65 years and older"
+    initial_US_approval_date: "2009"
+    ingredients:
+      - egg_protein: "1 exposure"
+      - formaldehyde: "100 mcg"
+      - triton_x100: "250 mcg"
+      - thimerosal: "50 mcg"
+      - thimerosal_free_version: "✅"
+      - strain_a_h1n1: "60 mcg"
+      - strain_a_h3n2: "60 mcg"
+      - strain_b: "60 mcg"
+  - name: Infanrix
+    id: 9
+    type: DTaP
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/infanrix
+    age_range: "6 weeks - 6 years"
+    initial_US_approval_date: "1997"
+    ingredients:
+      - aluminum: "625 mcg"
+      - bovine_pituitary_extract: "1 exposure"
+      - casein: "18.3 ng"
+      - formaldehyde: "100 mcg"
+      - glutaraldehyde: "1 exposure"
+      - latex: "1 exposure"
+      - pertussis_toxin: "25 mcg"
+      - polysorbate_80: "100 mcg"
+  - name: IPOL
+    id: 10
+    type: Polio
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/ipol-poliovirus-vaccine-inactivated-monkey-kidney-cell
+    age_range: "6 weeks and older"
+    initial_US_approval_date: "1987"
+    ingredients:
+      - calf_serum_albumin: "1 mcg"
+      - formaldehyde: "25 mcg"
+      - neomycin: "0.005 mcg"
+      - polymyxin: "25 ng"
+      - streptomycin: "200 ng"
+      - phenoxyethanol: "2,500 mcg"
+      - vero_cells: "1 exposure"
+  - name: Kinrix
+    id: 33
+    type: DTaP-IPV
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/kinrix
+    age_range: "4 - 6 years"
+    initial_US_approval_date: "2008"
+    ingredients:
+      - calf_serum_albumin: "1 exposure"
+      - aluminum: "600 mcg"
+      - bovine_pituitary_extract: "1 exposure"
+      - casein: "1 exposure"
+      - formaldehyde: "100 mcg"
+      - glutaraldehyde: "1 exposure"
+      - lactalbumin_hydrolysate: "1 exposure"
+      - latex: "1 exposure"
+      - neomycin: "50 pg"
+      - pertussis_toxin: "25 mcg"
+      - polymyxin: "10 pg"
+      - polysorbate_80: "100 mcg"
+      - vero_cells: "1 exposure"
+  - name: Menactra
+    id: 11
+    type: MenACWY
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/menactra
+    age_range: "9 months - 55 years"
+    initial_US_approval_date: "2005"
+    ingredients:
+      - ammonium_sulfate: "1 exposure"
+      - casein: "1 exposure"
+      - diphtheria_toxoid: "48 mcg"
+      - formaldehyde: "2.7 mcg"
+      - sodium_phosphate: "1 exposure"
+  - name: Menveo
+    id: 12
+    type: MenACWY
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/menveo
+    age_range: "2 months - 55 years"
+    initial_US_approval_date: "2010"
+    ingredients:
+      - diphtheria_toxoid: "64 mcg"
+      - formaldehyde: "0.3 mcg"
+      - franz_complete_medium: "1 exposure"
+      - yeast: "1 exposure"
+  - name: MMR-II
+    id: 13
+    type: MMR
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/measles-mumps-and-rubella-virus-vaccine-live
+    age_range: "12 months and older"
+    initial_US_approval_date: "1978"
+    ingredients:
+      - fetal_bovine_serum: "1,000 ng"
+      - egg_protein: "1 exposure"
+      - glyphosate: "3.2 ppb"
+      - human_protein_dna_wi_38: "1 exposure"
+      - human_protein_dna_wistar_ra_27_3: "1 exposure"
+      - msg: "1 exposure"
+      - neomycin: "25 mcg"
+      - porcine_gelatin: "14.5 mg"
+      - recombinant_human_albumin: "1 exposure"
+  - name: Pediarix
+    id: 14
+    type: DTaP-HepB-IPV
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/pediarix
+    age_range: "6 weeks - 6 years"
+    initial_US_approval_date: "2002"
+    ingredients:
+      - aluminum: "850 mcg"
+      - bovine_pituitary_extract: "1 exposure"
+      - calf_serum_albumin: "1 exposure"
+      - casein: "1 exposure"
+      - formaldehyde: "100 mcg"
+      - glutaraldehyde: "1 exposure"
+      - lactalbumin_hydrolysate: "1 exposure"
+      - latex: "1 exposure"
+      - neomycin: "50 pg"
+      - pertussis_toxin: "25 mcg"
+      - polymyxin: "10 ng"
+      - polysorbate_80: "100 mcg"
+      - vero_cells: "1 exposure"
+      - yeast: "1 exposure"
+  - name: PedvaxHIB
+    id: 15
+    type: Hib
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/haemophilus-b-conjugate-vaccine-meningococcal-protein-conjugate
+    age_range: "2 months - 5 years"
+    initial_US_approval_date: "1990"
+    ingredients:
+      - aluminum: "225 mcg"
+      - latex: "1 exposure"
+  - name: Pentacel
+    id: 16
+    type: DTaP-IPV-Hib
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/pentacel
+    age_range: "6 weeks - 4 years"
+    initial_US_approval_date: "2008"
+    ingredients:
+      - aluminum: "330 mcg"
+      - ammonium_sulfate: "1 exposure"
+      - calf_serum_albumin: "50 ng"
+      - formaldehyde: "5 mcg"
+      - glutaraldehyde: "50 ng"
+      - human_protein_dna_mrc_5: "1 exposure"
+      - neomycin: "4 pg"
+      - pertussis_toxin: "20 mcg"
+      - polymyxin: "4 pg"
+      - phenoxyethanol: "3,300 mcg"
+      - polysorbate_80: "20 mcg"
+  - name: Phytonadione generic
+    id: 17
+    type: Vitamin-K
+    url: https://labeling.pfizer.com/ShowLabeling.aspx?id=5392
+    age_range: "Birth and older"
+    initial_US_approval_date: "?"
+    ingredients:
+      - benzyl_alcohol: "9,000 mcg"
+      - phytonadione: "1 mg"
+      - polysorbate_80: "10,000 mcg"
+      - proplyene_glycol: "10,400 mcg"
+  - name: Prevnar 13
+    id: 18
+    type: PCV
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/prevnar-13
+    age_range: "6 weeks - 5 years"
+    initial_US_approval_date: "2010"
+    ingredients:
+      - aluminum: "125 mcg"
+      - casamino_acid: "1 exposure"
+      - diphtheria_protein: "34 mcg"
+      - polysorbate_80: "100 mcg"
+      - soy_peptone: "1 exposure"
+      - yeast: "1 exposure"
+  - name: Prevnar 20
+    id: 19
+    type: PCV
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/prevnar-20
+    age_range: "18 years and older"
+    initial_US_approval_date: "2021"
+    ingredients:
+      - aluminum: "125 mcg"
+      - casamino_acid: "1 exposure"
+      - diphtheria_protein: "51 mcg"
+      - polysorbate_80: "100 mcg"
+      - soy_peptone: "1 exposure"
+      - yeast: "1 exposure"
+  - name: PRIORIX
+    id: 20
+    type: MMR
+    url: https://www.fda.gov/vaccines-blood-biologics/priorix
+    age_range: "12 months and older"
+    initial_US_approval_date: "2022"
+    ingredients:
+      - fetal_bovine_serum: "50 ng"
+      - egg_protein: "60 ng"
+      - human_protein_dna_wi_38: "1 exposure"
+      - human_protein_dna_wistar_ra_27_3: "1 exposure"
+      - latex: "1 exposure"
+      - neomycin: "25 mcg"
+  - name: ProQuad (freezer)
+    id: 21
+    type: MMR-VAR
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/proquad
+    age_range: "12 months - 12 years"
+    initial_US_approval_date: "2005"
+    ingredients:
+      - calf_serum_albumin: "0.5 mcg"
+      - dibasic_sodium_phosphate: "340 mcg"
+      - egg_protein: "1 exposure"
+      - porcine_gelatin: "11 mg"
+      - glyphosate: "0.5 ppb"
+      - human_albumin: "310 mcg"
+      - human_protein_dna_mrc_5: "1 exposure"
+      - human_protein_dna_wi_38: "1 exposure"
+      - human_protein_dna_wistar_ra_27_3: "1 exposure"
+      - msg: "400 mcg"
+      - neomycin: "16 mcg"
+      - potassium_chloride: "60 mcg"
+      - potassium_phosphate: "72 mcg"
+  - name: ProQuad (refrigerator-stable)
+    id: 22
+    type: MMR-VAR
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/proquad
+    age_range: "12 months - 12 years"
+    initial_US_approval_date: "2005"
+    ingredients:
+      - calf_serum_albumin: "0.5 mcg"
+      - dibasic_sodium_phosphate: "1,400 mcg"
+      - egg_protein: "1 exposure"
+      - porcine_gelatin: "11 mg"
+      - glyphosate: "0.5 ppb"
+      - human_protein_dna_mrc_5: "1 exposure"
+      - human_protein_dna_wi_38: "1 exposure"
+      - human_protein_dna_wistar_ra_27_3: "1 exposure"
+      - msg: "380 mcg"
+      - neomycin: "5 mcg"
+      - potassium_chloride: "58 mcg"
+      - potassium_phosphate: "72 mcg"
+      - recombinant_human_albumin: "250 mcg"
+      - urea: "2.5 mg"
+  - name: Quadracel (MRC-5)
+    id: 34
+    type: DTaP-IPV
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/quadracel
+    age_range: "4 - 6 years"
+    initial_US_approval_date: "2015"
+    ingredients:
+      - aluminum: "330 mcg"
+      - ammonium_sulfate: "1 exposure"
+      - casamino_acid: "1 exposure"
+      - formaldehyde: "2 mcg"
+      - glutaraldehyde: "50 ng"
+      - human_protein_dna_mrc_5: "1 exposure"
+      - neomycin: "4 pg"
+      - pertussis_toxin: "20 mcg"
+      - phenoxyethanol: "3,300 mcg"
+      - polymyxin: "4 pg"
+      - polysorbate_80: "5 mcg"
+  - name: Quadracel (VERO)
+    id: 35
+    type: DTaP-IPV
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/quadracel
+    age_range: "4 - 6 years"
+    initial_US_approval_date: "2015"
+    ingredients:
+      - aluminum: "330 mcg"
+      - ammonium_sulfate: "1 exposure"
+      - casamino_acid: "1 exposure"
+      - formaldehyde: "5 mcg"
+      - glutaraldehyde: "50 ng"
+      - neomycin: "4 pg"
+      - pertussis_toxin: "20 mcg"
+      - phenoxyethanol: "3,300 mcg"
+      - polymyxin: "4 pg"
+      - polysorbate_80: "5 mcg"
+      - streptomycin: "0.0001 pg"
+      - vero_cells: "1 exposure"
+  - name: Recombivax HB
+    id: 23
+    type: HepB
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/recombivax-hb
+    age_range: "Birth - 19 years"
+    initial_US_approval_date: "1986"
+    ingredients:
+      - aluminum: "250 mcg"
+      - formaldehyde: "7.5 mcg"
+      - latex: "1 exposure"
+      - soy_peptone: "1 exposure"
+      - recombinant_yeast: "1 exposure"
+  - name: Rotarix
+    id: 24
+    type: RV
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/rotarix
+    age_range: "6 weeks - 24 weeks"
+    initial_US_approval_date: "2008"
+    ingredients:
+      - dmem: "1 exposure"
+      - latex: "1 exposure"
+      - porcine_circovirus_type_1: "1 exposure"
+      - vero_cells: "1 exposure"
+  - name: RotaTeq
+    id: 25
+    type: RV
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/rotateq
+    age_range: "6 weeks - 32 weeks"
+    initial_US_approval_date: "2006"
+    ingredients:
+      - fetal_bovine_serum: "1 exposure"
+      - porcine_circovirus_type_1: "1 exposure"
+      - porcine_circovirus_type_2: "1 exposure"
+      - polysorbate_80: "1 exposure"
+      - vero_cells: "1 exposure"
+  - name: TDVAX
+    id: 26
+    type: Td
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/tdvax
+    age_range: "7 years and older"
+    initial_US_approval_date: "2009"
+    notes: "Approval was probably earlier, but the FDA website only goes back to 2009."
+    ingredients:
+      - aluminum: "530 mcg"
+      - diphtheria_toxoid: "2 Lf"
+      - formaldehyde: "100 mcg"
+      - modified_muellers_medium: "1 exposure"
+      - tetanus_toxoid: "2 Lf"
+      - thimerosal: "0.3 mcg"
+  - name: TENIVAC
+    id: 27
+    type: Td
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/tenivac
+    age_range: "7 years and older"
+    initial_US_approval_date: "2003"
+    ingredients:
+      - aluminum: "330 mcg"
+      - ammonium_sulfate: "1 exposure"
+      - casamino_acid: "1 exposure"
+      - diphtheria_toxoid: "2 Lf"
+      - formaldehyde: "5 mcg"
+      - latex: "1 exposure"
+      - modified_mueller_miller_medium: "1 exposure"
+      - tetanus_toxoid: "5 Lf"
+  - name: Trumenba
+    id: 28
+    type: MenB
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/trumenba
+    age_range: "10 - 25 years"
+    initial_US_approval_date: "2014"
+    ingredients:
+      - aluminum: "250 mcg"
+      - e_coli: "1 exposure"
+      - polysorbate_80: "1 exposure"
+  - name: Varivax (freezer)
+    id: 29
+    type: VAR
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/varivax
+    age_range: "12 months and older"
+    initial_US_approval_date: "1995"
+    ingredients:
+      - fetal_bovine_serum: "1 exposure"
+      - edta: "1 exposure"
+      - porcine_gelatin: "12.5 mg"
+      - glyphosate: "0.5 ppb"
+      - human_protein_dna_mrc_5: "1 exposure"
+      - human_protein_dna_wi_38: "1 exposure"
+      - msg: "500 mcg"
+      - neomycin: "1 exposure"
+  - name: Varivax (refrigerator-stable)
+    id: 30
+    type: VAR
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/varivax
+    age_range: "12 months and older"
+    initial_US_approval_date: "1995"
+    ingredients:
+      - fetal_bovine_serum: "1 exposure"
+      - porcine_gelatin: "8.9 mg"
+      - glyphosate: "0.5 ppb"
+      - human_protein_dna_mrc_5: "1 exposure"
+      - human_protein_dna_wi_38: "1 exposure"
+      - msg: "360 mcg"
+      - neomycin: "1 exposure"
+      - urea: 3.6 mg
+  - name: Vaxelis
+    id: 31
+    type: DTaP-IPV-Hib-HepB
+    url: https://www.fda.gov/vaccines-blood-biologics/vaxelis
+    age_range: "6 weeks - 4 years"
+    initial_US_approval_date: "2018"
+    ingredients:
+      - aluminum: "319 mcg"
+      - bovine_albumin: "50 ng"
+      - ammonium_sulfate: "1 exposure"
+      - formaldehyde: "14 mcg"
+      - glutaraldehyde: "50 ng"
+      - neomycin: "5,000 pg"
+      - pertussis_toxin: "20 mcg"
+      - phenol: "1 exposure"
+      - polymyxin: "25 ng"
+      - polysorbate_80: "2.8 mcg"
+      - recombinant_yeast: "0.1 mcg"
+      - soy_peptone: "1 exposure"
+      - streptomycin: "200 ng"
+      - vero_cells: "1 exposure"
+      - yeast: "1 exposure"
+  - name: VAXNEUVANCE
+    id: 32
+    type: PCV
+    url: https://www.fda.gov/vaccines-blood-biologics/vaccines/vaxneuvance
+    age_range: "18 years and older"
+    initial_US_approval_date: "2021"
+    ingredients:
+      - aluminum: "125 mcg"
+      - casamino_acid: "1 exposure"
+      - diphtheria_protein: "51 mcg"
+      - polysorbate_20: "1,000 mcg"
+      - pseudomonas_fluorescens: "1 exposure"
+      - recombinant_diphtheria_crm197_protein: "30 mcg"
+      - soy_peptone: "1 exposure"
+      - yeast: "1 exposure"
