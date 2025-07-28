@@ -11,6 +11,9 @@ Get the full context behind this database — including vaccine guides, real-tim
 **[Join the list here →](https://vaxcalc.berserkermail.com/Join-Vx-List)**  
 It’s where the Crew gets equipped.
 
+Or explore more at **[vaxcalc.org](https://vaxcalc.org)** — your HQ for informed vaccine decisions.
+
+
 ---
 
 ## 🎯 Project Goals
